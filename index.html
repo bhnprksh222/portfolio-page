@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhanu Prakash Akepogu — Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Bhanu Prakash Akepogu — Software Engineer (Full‑Stack, DevOps, Cloud)."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+
+  <body>
+    <!-- Custom cursor -->
+    <div class="cursor"></div>
+
+    <nav class="navbar">
+      <a class="logo" href="#hero">Bhanu<span>.</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="hero" class="snap">
+      <div class="container hero-inner">
+        <p class="eyebrow">Software Engineer</p>
+        <h1 class="headline gradient-text">
+          I build fast, resilient, human‑friendly software.
+        </h1>
+        <p class="sub">
+          Full‑stack development • DevOps • Cloud • Data • Design systems
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="hero-noise"></div>
+    </section>
+
+    <section id="about" class="snap">
+      <div class="container two-col">
+        <div>
+          <h2>About</h2>
+          <p>
+            I'm Bhanu Prakash Akepogu, a software engineer with 2+ years of
+            experience designing, developing, and shipping scalable products
+            across the full stack. I love turning complex problems into
+            maintainable systems with clean UX, robust APIs, and solid
+            infrastructure.
+          </p>
+          <ul class="chips">
+            <li>React & TypeScript</li>
+            <li>Flask & FastAPI</li>
+            <li>PostgreSQL</li>
+            <li>Docker & Kubernetes</li>
+            <li>AWS</li>
+            <li>Terraform</li>
+            <li>Grafana</li>
+            <li>CI/CD</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>Highlights</h3>
+          <ul>
+            <li>
+              Built automation tools that cut incident runtime by
+              <strong>45%</strong>.
+            </li>
+            <li>
+              Optimized PostgreSQL workflows achieving
+              <strong>30%</strong> lower query latency.
+            </li>
+            <li>
+              Improved monitoring across 50+ metrics and reduced MTTR by
+              <strong>25%</strong>.
+            </li>
+          </ul>
+          <a class="btn small" href="#projects">See my work</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="snap">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <article class="card reveal">
+            <header>
+              <h3>Societe Generale GSC Pvt Ltd</h3>
+              <span class="meta"
+                >Software Engineer • Jun 2022 – Dec 2023 • Bengaluru,
+                India</span
+              >
+            </header>
+            <ul>
+              <li>
+                Designed a ticket dispatching portal (Flask, Jinja, HTML5)
+                automating ~40% of manual triage.
+              </li>
+              <li>
+                Developed Python automation for incident management cutting
+                runtime by ~45% and saving ~20 engineer hours monthly.
+              </li>
+              <li>
+                Refactored PostgreSQL procedures for ~30% faster queries; built
+                Grafana dashboards over 50+ metrics reducing MTTR ~25%.
+              </li>
+              <li>
+                Modernized legacy codebases improving maintainability and
+                reducing bug recurrence ~20%.
+              </li>
+              <li>
+                Scaled backend systems with Docker, Kubernetes, Terraform; 15%
+                lower downtime during peak load tests.
+              </li>
+              <li>
+                Implemented CI/CD with AWS + Terraform improving release
+                consistency.
+              </li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <header>
+              <h3>Freecharge</h3>
+              <span class="meta"
+                >Frontend Engineering Intern • Jan 2021 – Jun 2021 • Mumbai,
+                India</span
+              >
+            </header>
+            <ul>
+              <li>
+                Implemented a scalable Design System (React, TS, Storybook)
+                boosting UI dev efficiency by ~30%.
+              </li>
+              <li>
+                Built reusable components and improved
+                responsiveness/accessibility; +20 Lighthouse points.
+              </li>
+              <li>
+                Ran A/B tests on key modules driving +12% engagement; faster
+                delivery via agile collaboration.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="snap">
+      <div class="container">
+        <h2>Education</h2>
+
+        <div class="timeline">
+          <article class="card reveal">
+            <header>
+              <h3>Clark University</h3>
+              <span class="meta"
+                >Master of Science in Computer Science • Jan 2024 – Dec 2025 •
+                Worcester, MA</span
+              >
+            </header>
+            <p>
+              Coursework: Software Engineering, Cloud DevOps & Automation, Data
+              Structures and Algorithms, Machine Learning.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="snap">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="project card reveal">
+            <header>
+              <h3>Credit Card Fraud Detection</h3>
+              <span class="meta"
+                >FastAPI • React (Vite) • PostgreSQL • Docker • AWS</span
+              >
+            </header>
+            <p>
+              Full‑stack fraud detection platform with REST APIs, real‑time
+              dashboard, and CI/CD infrastructure.
+            </p>
+            <div class="links">
+              <a
+                class="btn small"
+                target="_blank"
+                href="https://github.com/bhnprksh222/credit-card-fraud-detection"
+                >GitHub</a
+              >
+            </div>
+          </article>
+
+          <article class="project card reveal">
+            <header>
+              <h3>Archivum</h3>
+              <span class="meta">Solidity • React+TS • Web3.js • Vite</span>
+            </header>
+            <p>
+              Decentralized file storage with verified smart contracts,
+              responsive UI, and optimized wallet flows.
+            </p>
+            <div class="links">
+              <a
+                class="btn small"
+                target="_blank"
+                href="https://github.com/bhnprksh222/archivum"
+                >GitHub</a
+              >
+            </div>
+          </article>
+
+          <article class="project card reveal">
+            <header>
+              <h3>Electrobuy (E‑Commerce)</h3>
+              <span class="meta">React • Redux • Docker • AWS</span>
+            </header>
+            <p>
+              High‑performance full‑stack app with JWT/OAuth, Paytm payments,
+              and 95+ Lighthouse scores.
+            </p>
+            <div class="links">
+              <a
+                class="btn small"
+                target="_blank"
+                href="https://github.com/bhnprksh222/Electrobuy"
+                >GitHub</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="snap">
+      <div class="container">
+        <h2>Certifications</h2>
+
+        <div class="cert-grid">
+          <div class="cert-card reveal">
+            <h3>Advanced Software Engineering Job Simulation</h3>
+            <p>
+              Advanced Data Structures, Software Architecture, Relational DB
+              Design, Data Munging
+            </p>
+            <span class="meta">Forage</span>
+            <a
+              href="assets/certifications/advanced-software-engineering.pdf"
+              target="_blank"
+              download
+              class="cert-btn"
+            >
+              Link
+            </a>
+          </div>
+
+          <div class="cert-card reveal">
+            <h3>Solutions Architecture Job Simulation</h3>
+            <p>
+              Designed scalable and fault-tolerant hosting architectures with
+              optimized deployment pipelines.
+            </p>
+            <span class="meta">Forage</span>
+            <a
+              href="assets/certifications/solutions-architecture.pdf"
+              target="_blank"
+              download
+              class="cert-btn"
+            >
+              Link
+            </a>
+          </div>
+
+          <div class="cert-card reveal">
+            <h3>Technology Software Development Job Simulation</h3>
+            <p>
+              Feature proposals, state diagrams, data querying and live
+              visualization dashboards.
+            </p>
+            <span class="meta">Forage</span>
+            <a
+              href="assets/certifications/technology-software-dev.pdf"
+              target="_blank"
+              download
+              class="cert-btn"
+            >
+              Link
+            </a>
+          </div>
+
+          <div class="cert-card reveal">
+            <h3>Software Engineering Job Simulation</h3>
+            <p>
+              RESTful API design, unit testing, data models, and bug-fix
+              iterations for production systems.
+            </p>
+            <span class="meta">Forage</span>
+            <a
+              href="assets/certifications/software-engineering.pdf"
+              target="_blank"
+              download
+              class="cert-btn"
+            >
+              Link
+            </a>
+          </div>
+
+          <div class="cert-card reveal">
+            <h3>Front-End Software Engineering Job Simulation</h3>
+            <p>
+              Developed a React Backpack Web App with component architecture and
+              responsive UI.
+            </p>
+            <span class="meta">Forage</span>
+            <a
+              href="assets/certifications/frontend-software-engineering.pdf"
+              target="_blank"
+              download
+              class="cert-btn"
+            >
+              Link
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="snap">
+      <div class="container contact">
+        <h2>Contact</h2>
+        <div class="contact-links">
+          <a href="mailto:bhanu.akepogu@gmail.com">Mail</a>
+          <span>|</span>
+          <a href="tel:+17742429021">+1 (774) 242-9021</a>
+          <span>|</span>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/bhanu-prakash-akepogu/"
+            >LinkedIn</a
+          >
+          <span>|</span>
+          <a target="_blank" href="https://github.com/bhnprksh222/">GitHub</a>
+        </div>
+        <a class="btn primary" href="assets/resume.pdf" download
+          >Download Résumé</a
+        >
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> Bhanu Prakash Akepogu</p>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

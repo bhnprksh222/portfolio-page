@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:sass": "sass styles/main.scss styles/main.css",
+    "watch:sass": "sass --watch styles/main.scss styles/main.css",
+    "start": "live-server --port=3000",
+    "dev": "concurrently \"npm run watch:sass\" \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "live-server": "^1.2.2",
+    "sass": "^1.93.2"
+  }
+}
