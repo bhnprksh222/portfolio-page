@@ -280,6 +280,9 @@ html {
 .contact-links a:hover {
   color: var(--brand);
 }
+.contact-links a {
+  cursor: pointer;
+}
 .contact-links span {
   color: var(--muted);
   font-weight: 400;

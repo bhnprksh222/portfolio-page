@@ -119,6 +119,7 @@ html { scroll-snap-type: y proximity; }
     &:hover {
       color: var(--brand);
     }
+    cursor: pointer;
   }
 
   span {
